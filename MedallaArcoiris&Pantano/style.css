@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Satisfy&display=swap');
+
+body{
+    margin:0;
+}
+
+header h1{
+    font-size: 1000%;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Satisfy', cursive;
+}
+
+header{
+    min-width: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: none;
+}
+
+.seccion{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 250%;
+}
+
+.seccion td{
+    font-family: 'Anton', sans-serif;
+    font-size: 200%;
+    padding: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.seccion h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 500%;
+    margin: 0;
+}
