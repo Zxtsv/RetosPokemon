@@ -67,23 +67,31 @@ header{
     animation: AparecerAbajo 2s linear 0s 1 normal forwards;
 }
 
+
 h2{
-    text-align: right;
+    text-align: center;
     font-size: 500%;
     font-family: 'Barlow', sans-serif;
     margin-bottom: 0%;
     padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+#Biografia h2{
+    padding-bottom: 0px;
 }
 
 #Biografia img{
-    width: 75%;
-    padding:0;
+    width: 100%;
+    padding-left: 200px;
     margin:0;
 }
 
 #TextoBiografia{
     font-family: 'Barlow', sans-serif;
-    padding:100px;
+    font-size: 20px;
+    padding:80px;
 }
 
 #spotify{
